@@ -9,6 +9,7 @@ while answering == True:
     if answer == "4":
         score = score + 1
         print("Correct! Your score is now " + str(score) + "!")
+        answering = False
     else:
         print("Incorrect.")
         answer = input("2+2=?")
@@ -21,6 +22,7 @@ while answering == True:
     if answer == "49":
         score = score + 1
         print("Correct! Your score is now " + str(score) + "!")
+        answering = False
     else:
         print("Incorrect.")
         answer = input("7x7=? ")
@@ -33,6 +35,7 @@ while answering == True:
     if answer == "0.5":
         score = score + 1
         print("Correct! Your score is now " + str(score) + "!")
+        answering = False
     else:
         print("Incorrect.")
         answer = input("3/6=? ")  
