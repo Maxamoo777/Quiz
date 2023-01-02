@@ -3,7 +3,7 @@ print("Welcome...TO THE IMPOSSIBLE QUIZ!")
 score = 0
 
 answering = True
-answer = input("2+2=?")
+answer = input("2+2=? ")
 
 while answering == True:
     if answer == "4":
@@ -16,7 +16,7 @@ while answering == True:
 
 
 answering = True
-answer = input("7x7=?" )
+answer = input("7x7=? ")
 
 while answering == True:
     if answer == "49":
@@ -39,3 +39,4 @@ while answering == True:
     else:
         print("Incorrect.")
         answer = input("3/6=? ")  
+print ("Thats it for now,BYE!!!!")
