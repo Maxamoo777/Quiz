@@ -73,10 +73,10 @@ while alive == True:
             print("Incorrect.")
             answer = input("68-45=? ")  
             lives = lives - 1
-            if lives == 0:
-                print ("Your lives are at "+ str(lives) + "sooo.....SAY GOODBYE TO YOUR PROGESS!")
-                alive = False
-                answering = False
-                answer = input("2+2=? ")
+if lives => 0:
+    print ("Your lives are at "+ str(lives) + "sooo.....SAY GOODBYE TO YOUR PROGESS!")
+    alive = False
+    answering = False
+    answer = input("2+2=? ")
 
 print ("Thats it for now,BYE!!!!")
