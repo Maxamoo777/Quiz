@@ -1,7 +1,7 @@
 # This is the welcome message.
 print("Welcome...TO THE IMPOSSIBLE QUIZ!")
 score = 0
-Lives = 3
+lives = 3
 
 answering = True
 answer = input("2+2=? ")
@@ -14,7 +14,7 @@ while answering == True:
     else:
         print("Incorrect.")
         answer = input("2+2=?")
-    lives = lives - 1
+        lives = lives - 1
 if lives : 0
 answer = input("2+2=? ")
 
