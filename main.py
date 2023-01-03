@@ -16,10 +16,7 @@ while alive == True:
         else:
             print("Incorrect.")
             lives = lives - 1
-            if lives == 0:
-                alive = False
-                answering = False
-                answer = input("2+2=? ")
+            answer = input("2+2=? ")
 
     answering = True
     answer = input("7x7=? ")
@@ -76,7 +73,10 @@ while alive == True:
             print("Incorrect.")
             answer = input("68-45=? ")  
             lives = lives - 1
-            if lives < 1:
+            if lives == 0:
+                print ("Say goodbye to your progress!")
                 alive = False
+                answering = False
+                answer = input("2+2=? ")
 
 print ("Thats it for now,BYE!!!!")
