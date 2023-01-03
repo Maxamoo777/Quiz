@@ -19,7 +19,7 @@ while alive == True:
             if lives == 0:
                 alive = False
                 answering = False
-            answer = input("2+2=? ")
+                answer = input("2+2=? ")
 
     answering = True
     answer = input("7x7=? ")
