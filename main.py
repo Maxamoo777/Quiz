@@ -29,7 +29,7 @@ while answering == True:
     else:
         print("Incorrect.")
         answer = input("7x7=? ")
-     lives = lives - 1
+        lives = lives - 1
 if lives : 0
 answer = input("2+2=? ")
 
@@ -44,7 +44,7 @@ while answering == True:
     else:
         print("Incorrect.")
         answer = input("3/6=? ")
-    lives = lives - 1
+        lives = lives - 1
 if lives : 0
 answer = input("2+2=? ")
 
