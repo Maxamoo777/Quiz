@@ -65,16 +65,17 @@ while alive == True:
 
     answer = input("68-45=? ")
     while answering == True:
-        if answer == "23":
-            score = score + 1
-            print("Correct! Your score is now " + str(score) + "!")
-            answering = False
-        else:
-            print("Incorrect.")
-            answer = input("68-45=? ")  
-            lives = lives - 1
-if lives => 0:
-    print ("Your lives are at "+ str(lives) + "sooo.....SAY GOODBYE TO YOUR PROGESS!")
+
+            if answer == "23":
+                answering = False
+                score = score + 1
+                print("Correct! Your score is now " + str(score) + "!")
+            else:
+                print("Incorrect.")
+                answer = input("68-45=? ")  
+                lives = lives - 1
+if lives <= 0:
+    print ("Your lives are at "+ str(lives) + " sooo.....SAY GOODBYE TO YOUR PROGESS!")
     alive = False
     answering = False
     answer = input("2+2=? ")
